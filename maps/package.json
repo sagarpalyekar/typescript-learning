@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx parcel index.ts"
+  },
   "dependencies": {
     "@faker-js/faker": "^8.0.1",
     "@types/google.maps": "^3.53.1"
