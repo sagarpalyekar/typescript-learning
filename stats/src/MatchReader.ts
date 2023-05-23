@@ -1,7 +1,7 @@
 import { dateStringToDate } from "./utils";
 import { MatchResult } from "./MatchResult";
 import { MatchData } from "./MatchData";
-import { CsvFileReader } from "./CsvFileReader";
+import { CsvFileReader } from "./lib/CsvFileReader";
 
 interface DataReader {
   read(): void;
